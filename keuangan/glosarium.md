@@ -87,35 +87,35 @@ Pengeluaran yang terjadi secara periodik dengan interval lebih dari satu bulan d
 - **Kriteria:** Interval >1 bulan, terjadwal, ada jatuh tempo.
 - **Yang termasuk:** Pajak tahunan, asuransi, iuran tahunan.
 - **Hubungan:** Berbeda dengan [Pengeluaran Rutin](#pengeluaran-rutin) pada intervalnya. Berbeda dengan [Pengeluaran Tidak Rutin](#pengeluaran-tidak-rutin) pada kepastian jadwal.
-- **Modul:** [[keuangan/struktur-pengeluaran/berkala/berkala]]
+- **Modul:** [[keuangan/struktur-pengeluaran/berkala]]
 
 ### Pengeluaran Darurat
 Pengeluaran yang tidak terduga, mendesak, dan harus segera dibayar.
 - **Kriteria:** Tidak direncanakan, mendesak, ada risiko/kerugian jika ditunda.
 - **Yang termasuk:** Biaya RS mendadak, perbaikan darurat, ban bocor.
 - **Hubungan:** Tidak sama dengan [Pengeluaran Tidak Rutin](#pengeluaran-tidak-rutin) yang sifatnya bisa ditunda. Lawan dari kategori yang sudah direncanakan.
-- **Modul:** [[keuangan/struktur-pengeluaran/darurat/darurat]]
+- **Modul:** [[keuangan/struktur-pengeluaran/darurat]]
 
 ### Pengeluaran Rutin
 Pengeluaran yang terjadi berulang (mingguan/bulanan) dan dibutuhkan untuk menjalani kehidupan sehari-hari.
 - **Kriteria:** Frekuensi tetap minimal 1x/bulan, dibutuhkan secara kontinu, nominal boleh naik-turun.
 - **Yang termasuk:** Makan sehari-hari, bensin, token listrik, kuota internet.
 - **Hubungan:** Berbeda dengan [Pengeluaran Tidak Rutin](#pengeluaran-tidak-rutin) pada aspek keberulangan dan urgensi. Berbeda dengan [Pengeluaran Berkala](#pengeluaran-berkala) pada interval (<1 bulan).
-- **Modul:** [[keuangan/struktur-pengeluaran/pengeluaran-rutin/pengeluaran-rutin]]
+- **Modul:** [[keuangan/struktur-pengeluaran/pengeluaran-rutin]]
 
 ### Pengeluaran Sosial
 Pengeluaran yang tujuan utamanya untuk kepentingan orang lain, hubungan sosial, atau berbagi.
 - **Kriteria:** Penerima manfaat orang lain, motivasi memberi/relasi, tidak mengharapkan imbalan materi.
 - **Yang termasuk:** Amplop nikah, sedekah, THR, traktir teman.
 - **Hubungan:** Berbeda dengan kategori lain karena orientasinya ke orang lain, bukan ke diri sendiri.
-- **Modul:** [[keuangan/struktur-pengeluaran/sosial/sosial]]
+- **Modul:** [[keuangan/struktur-pengeluaran/sosial]]
 
 ### Pengeluaran Tidak Rutin
 Pengeluaran yang terjadi sewaktu-waktu, tidak terikat siklus harian/mingguan/bulanan, dan bersifat situasional atau keinginan.
 - **Kriteria:** Frekuensi tidak menentu, bisa ditunda, lebih ke pilihan daripada kebutuhan.
 - **Yang termasuk:** Beli baju, servis AC, tiket nonton, beli gadget.
 - **Hubungan:** Kategori "sisa" — segala yang tidak masuk rutin, berkala, darurat, atau sosial.
-- **Modul:** [[keuangan/struktur-pengeluaran/pengeluaran-tidak-rutin/pengeluaran-tidak-rutin]]
+- **Modul:** [[keuangan/struktur-pengeluaran/pengeluaran-tidak-rutin]]
 
 ---
 

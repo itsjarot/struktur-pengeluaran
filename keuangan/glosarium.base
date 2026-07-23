@@ -27,6 +27,9 @@ views:
       - kategori
       - modul
       - status
+    sort:
+      - property: file.name
+        direction: ASC
     summaries:
       file.name: Unique
   - type: list

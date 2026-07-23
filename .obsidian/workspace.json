@@ -11,14 +11,13 @@
             "id": "77b1d4d117683c88",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "keuangan/glosarium.base",
+                "viewName": "Semua Istilah"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-table",
+              "title": "glosarium"
             }
           }
         ]
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "keuangan/glosarium.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for glosarium"
             }
           },
           {
@@ -113,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "keuangan/glosarium.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from glosarium"
             }
           },
           {
@@ -156,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "keuangan/glosarium.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of glosarium"
             }
           }
         ]
@@ -185,14 +184,23 @@
   },
   "active": "77b1d4d117683c88",
   "lastOpenFiles": [
+    "keuangan/struktur-pengeluaran/README.md",
+    "keuangan/glosarium.base",
     "keuangan/README.md",
     "keuangan/glosarium.md",
-    "keuangan/glosarium.base",
-    "keuangan/cashflow.md",
+    "keuangan/struktur-pengeluaran/pengeluaran-tidak-rutin.md",
+    "keuangan/struktur-pengeluaran/berkala.md",
+    "keuangan/struktur-pengeluaran/berkala/berkala.md",
+    "keuangan/struktur-pengeluaran/sosial.md",
+    "keuangan/struktur-pengeluaran/darurat.md",
+    "keuangan/struktur-pengeluaran/pengeluaran-rutin.md",
     "keuangan/struktur-pengeluaran/sosial/sosial.md",
     "keuangan/cashflow/README.md",
+    "keuangan/struktur-pengeluaran.md",
+    "keuangan/cashflow/2026-08.md",
     "keuangan/cashflow/2026-07.md",
     "README.md",
+    "keuangan/cashflow.md",
     "keuangan/cashflow",
     "struktur-pengeluaran.md",
     "keuangan.md",
@@ -200,9 +208,7 @@
     "keuangan/struktur-pengeluaran/pengeluaran-tidak-rutin/pengeluaran-tidak-rutin.md",
     "keuangan/struktur-pengeluaran/pengeluaran-rutin/pengeluaran-rutin.md",
     "keuangan/struktur-pengeluaran/darurat/darurat.md",
-    "keuangan/struktur-pengeluaran/berkala/berkala.md",
     "keuangan/struktur-pengeluaran/sosial",
-    "keuangan/struktur-pengeluaran/README.md",
     "keuangan/struktur-pengeluaran/pengeluaran-tidak-rutin",
     "keuangan/struktur-pengeluaran/pengeluaran-rutin",
     "keuangan/struktur-pengeluaran/darurat",
@@ -212,13 +218,6 @@
     "struktur-pengeluaran/LICENSE.md",
     "LICENSE",
     "struktur-pengeluaran/darurat.md",
-    "struktur-pengeluaran/sosial/sosial.md",
-    "struktur-pengeluaran/darurat/darurat.md",
-    "struktur-pengeluaran/berkala/berkala.md",
-    "struktur-pengeluaran/pengeluaran-tidak-rutin/pengeluaran-tidak-rutin.md",
-    "struktur-pengeluaran/pengeluaran-rutin/pengeluaran-rutin.md",
-    "struktur-pengeluaran/berkala.md",
-    "struktur-pengeluaran/pengeluaran-rutin.md",
-    "struktur-pengeluaran/pengeluaran-tidak-rutin.md"
+    "struktur-pengeluaran/sosial/sosial.md"
   ]
 }

@@ -1,0 +1,36 @@
+filters:
+  and:
+    - file.hasTag("keuangan")
+    - file.ext == "md"
+formulas:
+  huruf_awal: file.basename.slice(0, 1).upper()
+  kategori_label: if(kategori, kategori, "-")
+  modul_label: if(modul, modul, "-")
+properties:
+  file.name:
+    displayName: Istilah
+  kategori:
+    displayName: Kategori
+  modul:
+    displayName: Modul
+  formula.huruf_awal:
+    displayName: Huruf
+views:
+  - type: table
+    name: Semua Istilah
+    groupBy:
+      property: formula.huruf_awal
+      direction: ASC
+    order:
+      - file.name
+      - type
+      - kategori
+      - modul
+      - status
+    summaries:
+      file.name: Unique
+  - type: list
+    name: Daftar Cepat
+    order:
+      - file.name
+      - kategori

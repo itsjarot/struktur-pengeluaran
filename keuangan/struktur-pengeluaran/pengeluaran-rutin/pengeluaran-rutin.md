@@ -2,6 +2,14 @@
 judul: "Pengeluaran Rutin"
 versi: "1.0"
 tanggal_review: "2026-07-23"
+type: kategori
+modul: struktur-pengeluaran
+kategori: pengeluaran-rutin
+tags:
+  - keuangan
+  - pengeluaran
+  - rutin
+status: stabil
 ---
 
 # Pengeluaran Rutin

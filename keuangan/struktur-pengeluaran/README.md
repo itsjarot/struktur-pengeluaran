@@ -2,6 +2,13 @@
 judul: "Aturan Global Dokumentasi Pengeluaran"
 versi: "1.0"
 tanggal_review: "2026-07-23"
+type: dokumentasi-sistem
+modul: struktur-pengeluaran
+tags:
+  - keuangan
+  - pengeluaran
+  - aturan
+status: stabil
 ---
 
 # Aturan Global Dokumentasi Pengeluaran
@@ -13,10 +20,11 @@ Baca ini dulu sebelum mulai mengkategorikan transaksi.
 
 ## Aturan Besi: Satu Transaksi = Satu Kategori
 
-Setiap transasi hanya boleh masuk **satu kategori utama**. Tidak ada transaksi yang masuk ke dua folder sekaligus.
-
+> [!danger] Aturan Besi
+> Setiap transasi hanya boleh masuk **satu kategori utama**. Tidak ada transaksi yang masuk ke dua folder sekaligus.
+> 
 > **Konsep Gerbong:** Anggap setiap kategori seperti gerbong kereta. Satu transaksi naik ke satu gerbong. Kalau ragu, ikuti alur tanya-jawab di bawah.
-
+> 
 > Kalau terasa **sama kuat** antara dua kategori, gunakan `Pertanyaan Saat Bingung` di masing-masing file untuk memutuskan. Salah pilih tidak masalah — yang penting konsisten.
 
 ---

@@ -187,8 +187,16 @@
   "lastOpenFiles": [
     "keuangan/README.md",
     "keuangan/glosarium.md",
-    "struktur-pengeluaran/README.md",
+    "keuangan/glosarium.base",
+    "keuangan/cashflow.md",
     "keuangan/struktur-pengeluaran/sosial/sosial.md",
+    "keuangan/cashflow/README.md",
+    "keuangan/cashflow/2026-07.md",
+    "README.md",
+    "keuangan/cashflow",
+    "struktur-pengeluaran.md",
+    "keuangan.md",
+    "struktur-pengeluaran/README.md",
     "keuangan/struktur-pengeluaran/pengeluaran-tidak-rutin/pengeluaran-tidak-rutin.md",
     "keuangan/struktur-pengeluaran/pengeluaran-rutin/pengeluaran-rutin.md",
     "keuangan/struktur-pengeluaran/darurat/darurat.md",
@@ -201,7 +209,6 @@
     "keuangan/struktur-pengeluaran/berkala",
     "keuangan/struktur-pengeluaran",
     "keuangan",
-    "README.md",
     "struktur-pengeluaran/LICENSE.md",
     "LICENSE",
     "struktur-pengeluaran/darurat.md",
@@ -212,9 +219,6 @@
     "struktur-pengeluaran/pengeluaran-rutin/pengeluaran-rutin.md",
     "struktur-pengeluaran/berkala.md",
     "struktur-pengeluaran/pengeluaran-rutin.md",
-    "struktur-pengeluaran/pengeluaran-tidak-rutin.md",
-    "struktur-pengeluaran/sosial.md",
-    "struktur-pengeluaran/darurat",
-    "struktur-pengeluaran/sosial"
+    "struktur-pengeluaran/pengeluaran-tidak-rutin.md"
   ]
 }

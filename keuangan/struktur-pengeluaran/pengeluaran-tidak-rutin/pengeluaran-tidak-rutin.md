@@ -2,6 +2,14 @@
 judul: "Pengeluaran Tidak Rutin"
 versi: "1.0"
 tanggal_review: "2026-07-23"
+type: kategori
+modul: struktur-pengeluaran
+kategori: pengeluaran-tidak-rutin
+tags:
+  - keuangan
+  - pengeluaran
+  - tidak-rutin
+status: stabil
 ---
 
 # Pengeluaran Tidak Rutin

@@ -2,6 +2,14 @@
 judul: "Pengeluaran Darurat"
 versi: "1.0"
 tanggal_review: "2026-07-23"
+type: kategori
+modul: struktur-pengeluaran
+kategori: darurat
+tags:
+  - keuangan
+  - pengeluaran
+  - darurat
+status: stabil
 ---
 
 # Pengeluaran Darurat

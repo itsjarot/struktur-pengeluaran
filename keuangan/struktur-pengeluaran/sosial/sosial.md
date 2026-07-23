@@ -2,6 +2,14 @@
 judul: "Pengeluaran Sosial"
 versi: "1.0"
 tanggal_review: "2026-07-23"
+type: kategori
+modul: struktur-pengeluaran
+kategori: sosial
+tags:
+  - keuangan
+  - pengeluaran
+  - sosial
+status: stabil
 ---
 
 # Pengeluaran Sosial

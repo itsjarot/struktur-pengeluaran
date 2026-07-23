@@ -2,6 +2,13 @@
 judul: "Glosarium — Sistem Keuangan"
 versi: "1.0"
 tanggal_review: "2026-07-23"
+type: glosarium
+modul: keuangan
+tags:
+  - keuangan
+  - glosarium
+  - acuan
+status: stabil
 ---
 
 # Glosarium
@@ -28,6 +35,17 @@ Segala sesuatu yang memiliki nilai ekonomi dan dimiliki oleh individu. Mencakup 
 
 ### Berkala (Pengeluaran Berkala)
 Lihat **Pengeluaran Berkala**.
+
+---
+
+## C
+
+### Cashflow
+Catatan kronologis seluruh transaksi (pengeluaran) yang terjadi dalam periode tertentu. Disusun per bulan dalam format tabel sederhana.
+- **Tujuan:** Melacak ke mana uang keluar secara riil, sebagai bahan evaluasi dan laporan.
+- **Kapan digunakan:** Setiap kali ada transaksi — catat di file cashflow bulan berjalan.
+- **Modul:** [[keuangan/cashflow]]
+- **Hubungan:** Setiap baris di cashflow harus merujuk ke salah satu kategori di [[keuangan/struktur-pengeluaran]]. Tanpa kategori, cashflow hanyalah daftar belanja tanpa makna.
 
 ---
 
@@ -69,35 +87,35 @@ Pengeluaran yang terjadi secara periodik dengan interval lebih dari satu bulan d
 - **Kriteria:** Interval >1 bulan, terjadwal, ada jatuh tempo.
 - **Yang termasuk:** Pajak tahunan, asuransi, iuran tahunan.
 - **Hubungan:** Berbeda dengan [Pengeluaran Rutin](#pengeluaran-rutin) pada intervalnya. Berbeda dengan [Pengeluaran Tidak Rutin](#pengeluaran-tidak-rutin) pada kepastian jadwal.
-- **Modul:** [struktur-pengeluaran/berkala/](../struktur-pengeluaran/berkala/berkala.md)
+- **Modul:** [[keuangan/struktur-pengeluaran/berkala/berkala]]
 
 ### Pengeluaran Darurat
 Pengeluaran yang tidak terduga, mendesak, dan harus segera dibayar.
 - **Kriteria:** Tidak direncanakan, mendesak, ada risiko/kerugian jika ditunda.
 - **Yang termasuk:** Biaya RS mendadak, perbaikan darurat, ban bocor.
 - **Hubungan:** Tidak sama dengan [Pengeluaran Tidak Rutin](#pengeluaran-tidak-rutin) yang sifatnya bisa ditunda. Lawan dari kategori yang sudah direncanakan.
-- **Modul:** [struktur-pengeluaran/darurat/](../struktur-pengeluaran/darurat/darurat.md)
+- **Modul:** [[keuangan/struktur-pengeluaran/darurat/darurat]]
 
 ### Pengeluaran Rutin
 Pengeluaran yang terjadi berulang (mingguan/bulanan) dan dibutuhkan untuk menjalani kehidupan sehari-hari.
 - **Kriteria:** Frekuensi tetap minimal 1x/bulan, dibutuhkan secara kontinu, nominal boleh naik-turun.
 - **Yang termasuk:** Makan sehari-hari, bensin, token listrik, kuota internet.
 - **Hubungan:** Berbeda dengan [Pengeluaran Tidak Rutin](#pengeluaran-tidak-rutin) pada aspek keberulangan dan urgensi. Berbeda dengan [Pengeluaran Berkala](#pengeluaran-berkala) pada interval (<1 bulan).
-- **Modul:** [struktur-pengeluaran/pengeluaran-rutin/](../struktur-pengeluaran/pengeluaran-rutin/pengeluaran-rutin.md)
+- **Modul:** [[keuangan/struktur-pengeluaran/pengeluaran-rutin/pengeluaran-rutin]]
 
 ### Pengeluaran Sosial
 Pengeluaran yang tujuan utamanya untuk kepentingan orang lain, hubungan sosial, atau berbagi.
 - **Kriteria:** Penerima manfaat orang lain, motivasi memberi/relasi, tidak mengharapkan imbalan materi.
 - **Yang termasuk:** Amplop nikah, sedekah, THR, traktir teman.
 - **Hubungan:** Berbeda dengan kategori lain karena orientasinya ke orang lain, bukan ke diri sendiri.
-- **Modul:** [struktur-pengeluaran/sosial/](../struktur-pengeluaran/sosial/sosial.md)
+- **Modul:** [[keuangan/struktur-pengeluaran/sosial/sosial]]
 
 ### Pengeluaran Tidak Rutin
 Pengeluaran yang terjadi sewaktu-waktu, tidak terikat siklus harian/mingguan/bulanan, dan bersifat situasional atau keinginan.
 - **Kriteria:** Frekuensi tidak menentu, bisa ditunda, lebih ke pilihan daripada kebutuhan.
 - **Yang termasuk:** Beli baju, servis AC, tiket nonton, beli gadget.
 - **Hubungan:** Kategori "sisa" — segala yang tidak masuk rutin, berkala, darurat, atau sosial.
-- **Modul:** [struktur-pengeluaran/pengeluaran-tidak-rutin/](../struktur-pengeluaran/pengeluaran-tidak-rutin/pengeluaran-tidak-rutin.md)
+- **Modul:** [[keuangan/struktur-pengeluaran/pengeluaran-tidak-rutin/pengeluaran-tidak-rutin]]
 
 ---
 
@@ -107,7 +125,7 @@ Pengeluaran yang terjadi sewaktu-waktu, tidak terikat siklus harian/mingguan/bul
 Lihat **Pengeluaran Sosial**.
 
 ### Single Source of Truth (SSOT)
-Prinsip bahwa setiap fakta atau aturan hanya didefinisikan di satu tempat dalam sistem dokumentasi. Lihat `keuangan/README.md` untuk detailnya.
+Prinsip bahwa setiap fakta atau aturan hanya didefinisikan di satu tempat dalam sistem dokumentasi. Lihat `keuangan/README.md`
 - **Hubungan:** Berlaku untuk semua modul dalam folder keuangan.
 
 ---
@@ -116,7 +134,7 @@ Prinsip bahwa setiap fakta atau aturan hanya didefinisikan di satu tempat dalam 
 
 ### Transaksi
 Unit dasar dari sistem keuangan. Mewakili satu perpindahan uang (masuk atau keluar) pada satu waktu tertentu dengan nominal dan tujuan tertentu.
-- **Aturan:** Satu transaksi hanya boleh memiliki **satu kategori**. Jika ragu, gunakan flowchart di `struktur-pengeluaran/README.md`.
+- **Aturan:** Satu transaksi hanya boleh memiliki **satu kategori**. Jika ragu, gunakan flowchart di [[keuangan/struktur-pengeluaran/README]].
 
 ### Tidak Rutin (Pengeluaran Tidak Rutin)
 Lihat **Pengeluaran Tidak Rutin**.

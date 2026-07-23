@@ -2,6 +2,12 @@
 judul: "Modul Keuangan — Dokumentasi Sistem"
 versi: "1.0"
 tanggal_review: "2026-07-23"
+type: dokumentasi-sistem
+modul: keuangan
+tags:
+  - keuangan
+  - root
+status: stabil
 ---
 
 # Modul Keuangan
@@ -12,7 +18,8 @@ Ini adalah root folder untuk dokumentasi sistem keuangan. Bukan aplikasi, bukan 
 
 ## Filosofi
 
-Dokumentasi ini dibangun dengan keyakinan bahwa:
+> [!quote] Filosofi Sistem
+> Dokumentasi ini dibangun dengan keyakinan bahwa:
 
 1. **Sistem yang baik adalah sistem yang sederhana.** Definisi yang jelas, hubungan yang eksplisit, dan aturan yang minimal.
 2. **Konsistensi > kebenaran mutlak.** Tidak ada kategori yang sempurna, yang ada adalah kategori yang dipahami bersama. Lebih baik salah secara konsisten daripada benar tapi membingungkan.
@@ -32,13 +39,16 @@ keuangan/
 │   ├── berkala/
 │   ├── darurat/
 │   └── sosial/
+├── cashflow/                   ← pencatatan transaksi harian
+│   ├── 2026-07.md
+│   └── ...
 └── <modul lain>                ← (belum ada)
 ```
 
 Setiap modul di folder `keuangan/`:
 
 - Bersifat **self-contained**: bisa dimengerti tanpa harus baca modul lain
-- Terikat oleh **glosarium global**: semua istilah yang dipakai di semua modul harus konsisten dengan definisi di `glosarium.md`
+- Terikat oleh **glosarium global**: semua istilah yang dipakai di semua modul harus konsisten dengan definisi di [[keuangan/glosarium]]
 - Wajib memiliki `README.md` sendiri yang menjelaskan bagaimana modul tersebut bekerja
 
 ---
@@ -61,7 +71,8 @@ Setiap modul di folder `keuangan/`:
 
 ## Single Source of Truth
 
-Setiap fakta atau aturan hanya boleh didefinisikan di satu tempat:
+> [!important] SSOT
+> Setiap fakta atau aturan hanya boleh didefinisikan di satu tempat:
 
 | Fakta | Hanya ada di |
 |---|---|
@@ -81,7 +92,8 @@ Jika terjadi konflik antara sumber yang berbeda, aturan mengikuti prioritas:
 
 Baca glosarium global dulu → masuk ke modul yang diinginkan → gunakan flowchart/pertanyaan di README modul untuk navigasi.
 
-| Ingin | Buka |
-|---|---|
-| Memahami istilah | [glosarium.md](glosarium.md) |
-| Mengkategorikan transaksi | [struktur-pengeluaran/README.md](struktur-pengeluaran) |
+| Ingin                     | Buka                                                    |
+| ------------------------- | ------------------------------------------------------- |
+| Memahami istilah          | [[keuangan/glosarium]]                            |
+| Mengkategorikan transaksi | [[keuangan/struktur-pengeluaran/README]] |
+| Mencatat transaksi harian | [[keuangan/cashflow/README]] |
